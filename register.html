@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: rgba(245, 189, 5, 0.932);
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        max-width: 850px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    .login{
+        width: 400px;
+    }
+    form{
+        width: 250px;
+        margin: 60px auto;
+    }
+    h1{
+        margin: 20px;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    hr{
+        border-top: 2px solid rgba(245, 189, 5, 0.932);
+    }
+    
+    .pic img{
+        width: 500px;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    form label{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    input{
+        width: 100%;
+        margin: 2px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 8px;
+        width: 252px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: rgba(245, 189, 5, 0.932);
+    }
+    button:hover{
+        background: rgba(245, 229, 5, 0.932);
+    }
+    p{
+        margin: 20px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Registrasi SINGEMPON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form>
+                <h1>SINGEMPON</h1>
+                <hr>
+                <p>Buat Akun Baru</p>
+                <label>Nama Lengkap</label>
+                <input type="text" placeholder="Masukkan Nama Lengkap">
+                <label>E-mail</label>
+                <input type="text" placeholder="abc@exampl.com">
+                <label>Password</label>
+                <input type="password" placeholder="Masukkan Password">
+                <label>Ulang Password</label>
+                <input type="password" placeholder="Masukkan Ulang Password">
+                <a href="hasilregister.html"><button type="button">Submit</button></a>
+                <p>
+                    <a href="logincoba.html">Sudah Punya Akun?</a>
+                </p>
+            <closeform></closeform></form>
+        </div>
+        <div class="pic">
+            <img src="images/welcome2.gif">
+        </div>
+    </div>
+
+</body>
+</html>

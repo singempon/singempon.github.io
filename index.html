@@ -1,0 +1,183 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Pertanahan Ngempon</title>
+    <link rel="stylesheet"stylesheet href="stylecoba.css">
+
+    <link href="https:fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/background2.gif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 400px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-right: 30px;
+
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    text-align: left;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 80px;
+}
+h1 span{
+    color: rgba(245, 229, 5, 0.932)
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: rgba(126, 118, 11, 0.932);
+    font-size: 30px 0;
+    padding: 12px 0;
+    background: #fff;
+    border: 40px;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/pic1.jpg);
+}
+.card2{
+    background-image: url(images/pic2.jpg);
+}
+.card3{
+    background-image: url(images/pic3.jpeg);
+}
+.card4{
+    background-image: url(images/pic4.jpg);
+}
+.card5{
+    background-image: url(images/pic5.jpg);
+}
+.card6{
+    background-image: url(images/pic6.png);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 12px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo2.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="logincoba.html">ADMIN LOG IN</a></li>
+                    <li><a href="register.html">ADMIN SIGN UP</a></li>
+                    <li><a href="exploremap.html">MAP</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu-1.jpg" class="menu-icon">
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>SI<span>NGEMPON</span></h1>
+                <p>Sistem Informasi Pertanahan Kelurahan Ngempon, Kecamatan Bergas<p>
+                    <li></li>
+                    <a href="https://bergas.semarangkab.go.id/"><button type="button">Explore Bergas</button></a>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h5>Candi Ngempon</h5>
+                    <p>Peninggalan historis tempat belajar para empu</p>
+                </div>
+                <div class="card card2">
+                    <h5>Curug Tirto Wening</h5>
+                    <p>Wisata pemandian air terjun ikonik</p>
+                </div>
+                <div class="card card3">
+                    <h5>Batik Bergas Kidul</h5>
+                    <p>Ketrampilan tradisional paten daerah</p>
+                </div>
+                <div class="card card4">
+                    <h5>Arca Ganesha Sikunir</h5>
+                    <p>Cagar budaya berbentuk arca ganesha</p>
+                </div>
+                <div class="card card5">
+                    <h5>Lembah Gana</h5>
+                    <p>Situs arkeologi dengan arca ganesha tanpa mahkota</p>
+                </div>
+                <div class="card card6">
+                    <h5>Watu Gajah Park</h5>
+                    <p>Destinasi wisata rekreasi dan edukasi</p>
+                </div>
+
+
+</body>
+<head>
